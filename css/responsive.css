@@ -1,0 +1,298 @@
+ /* x Small */
+@media (max-width:663px){
+    header nav{
+        height: 120px;
+        border-bottom: 3px solid  #4dbc4b;
+        padding-bottom: 10px;
+      font-size: 20px;
+    }
+    nav .logo{
+       width: 100%;
+    justify-content: center;
+      
+    }
+  
+    nav .login{
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    }
+   
+   
+     /* start intro */
+     header .intro .text {
+        top: 54%;
+        left: 0%;
+        transform: translate(5%,-50%);
+        padding: 0;
+    }
+  
+    header .text h1{
+        font-size: 37px;
+    
+    }
+   .intro p{
+    font-size: 22px;
+
+    padding-top: 10px;
+   }
+
+   .intro button{
+    padding: 7px 58px 7px 24px;
+    margin-top: 10px;
+    
+   }
+.intro button span{
+    background-color: #1d8a1b;
+    padding: 7px 14px;
+ 
+}
+/* our section */
+.our-sections .three-sections{
+    display: block;
+}
+.our-sections .three-sections div{
+    width: 90%;
+    margin: 20px auto;
+   
+}
+  /* start section of meal */
+  
+  .our-plates .flex{
+    width: 50%;
+    margin: 10px auto;
+}
+.our-plates .plate{
+    margin: 50px 0px;
+}
+.plate h3{
+    text-align: center;
+}
+.sec div.box{
+    width: 70%;
+        }
+        
+    /* girl pic */
+    .girl img{
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+    .girl h2{
+        font-size: 23px; 
+    }
+
+    .recomend{
+        display: block;
+    }
+    .recomend h2{
+        display: block;
+        font-size: 33px;
+       text-align: center;
+        width: 100%;
+    }
+    .recomend img{
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+    /* adition */
+    .green-div .info {
+        padding: 40px 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .green-div img{
+        margin: 10px auto;
+        }
+        .green-div{
+            width: 90%;
+            margin: auto;
+        }
+        /* footer */
+
+            /* start footer */
+            footer {
+                padding: 20px;
+                display: grid;
+                grid-template-columns:  1fr;
+               
+                color: #23233c;
+            }
+            footer .logo h2{
+                margin: 15px;
+                text-align: center;
+            }
+    
+            footer h2{
+                margin: 30px 0px 10px 0px;
+                font-weight: bold;
+                text-align: center;
+            }
+            footer .follow h2 {
+                margin: 0;
+            }
+            .logo div p{
+                font-size: 27px;
+             text-align: center;
+             margin: 0;
+            }
+          .follow h2{
+              margin-bottom: 10px;
+          }
+            footer ul{
+                display: flex;
+                justify-content: center;
+                
+            }
+            
+            footer li{
+                
+                margin-right: 10px;
+                list-style: none;
+                line-height: normal;
+            }
+         footer .grid{
+             display: grid;
+             grid-template-columns: 1fr 1fr;
+         }
+
+}
+
+
+@media (min-width:664px) and (max-width:767px){
+  
+    header nav{
+       
+        border-bottom: 3px solid  #4dbc4b;
+    }
+    header .intro .text {
+        top: 50%;
+        left: 0%;
+        transform: translate(2%,-36%);
+        padding: 40px;
+    } 
+    
+header .text h1{
+    font-size: 37px;
+}
+/* our section  */
+.our-sections .three-sections div{
+    width: calc(30%/3);
+    padding: 30px 80px;
+  
+}
+.our-sections .three-sections div a {
+    display: flex;
+    justify-content: center;
+}
+        /* start section of meal */
+  
+        .our-plates .flex{
+            width: 50%;
+            margin: 10px auto;
+        }
+        .our-plates .plate{
+            margin: 80px 0px;
+            padding-bottom: 50px;
+        }
+     
+        .plate h3{
+            text-align: center;
+        }
+    /* girl pic */
+    .girl img{
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+    .girl h2{
+        font-size: 23px; 
+    }
+    .recomend{
+        display: block;
+    }
+    .recomend h2{
+        display: block;
+        font-size: 33px;
+       text-align: center;
+        width: 100%;
+    }
+    .recomend img{
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+     /* adition */
+     .green-div .info {
+        padding: 40px 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .green-div img{
+        margin: 10px auto;
+        }
+        .green-div {
+            width: 90%;
+            margin: auto;
+        }
+        /* footer */
+        footer .follow li i{
+            display: none;
+        }
+    
+}
+
+/* md */
+@media (min-width:768px) and (max-width:991px) {
+    nav{
+        border-bottom: 3px solid  #4dbc4b;
+    }
+ 
+    nav .logo{
+        text-align: center;
+      
+    }
+
+
+       /* footer */
+       header .intro .text {
+        position: absolute;
+        top: 56%;
+        left: 25%;
+        transform: translate(-25%,-50%);
+       }
+       header .intro .text {
+           padding: 0;
+       }
+ 
+  
+}
+/* lg */
+@media (min-width:992px) and (max-width:1199px) {
+ 
+    header .intro .text{
+        padding: 0 10% 0 0;
+        }    
+      .flex{
+          width: 80%;
+          margin: auto;
+      }
+}
+/* xl */
+@media (min-width:1200px){
+    .flex{
+        width: 80%;
+        margin: auto;
+    }
+  
+    /* plates */
+    .sec div.box{
+width: 23%;
+    }
+    /* footer */
+    footer .logo{
+margin-left: 120px;
+    }
+}
+

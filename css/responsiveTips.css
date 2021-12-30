@@ -1,0 +1,182 @@
+ /* x Small */
+ @media (max-width:663px){
+     nav.row{
+        height: 140px;
+        border-bottom: 3px solid  #4dbc4b;
+        padding-bottom: 10px;
+      font-size: 20px;
+     }
+     .row .login{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .row .logo{
+        margin: 0;
+    }
+    .row .logo h2{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    /* start tips section */
+
+    .some-tips{
+        width: 400px;
+        display: block;
+        margin: 60px auto;
+        padding: 0px ;
+        transition: .3s;
+        height: 280px;
+        }
+        .some-tips h2{
+            font-size: 33px;
+            padding:  35px;
+            width: 100%;
+    
+        }
+        .some-tips img{
+          display: none;
+        }
+        /* meal */
+    .tip-p .meal{
+        margin: 70px 0px ;
+    }
+
+    .tip-p .meal p{
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .tip-p .meal img{
+        width: 60%;
+        height: 280px;
+        margin: 10px auto;
+    }
+    .steps h2{
+        margin-bottom: 60px;
+    }
+ }
+
+ /* sm */
+@media (min-width:664px) and (max-width:767px){
+nav.row{
+    border-bottom: 3px solid  #4dbc4b;
+}
+    nav .logo{
+        text-align: center;
+      
+    }
+
+/* start tips section */
+
+.some-tips{
+    width: 600px;
+    display: block;
+    margin: 60px auto;
+    padding: 0px ;
+    transition: .3s;
+    height: 300px;
+    }
+    .some-tips h2{
+        font-size: 44px;
+        padding:  20px;
+        width: 100%;
+
+    }
+    .some-tips img{
+      display: none;
+    }
+    /* meal */
+    .tip-p .meal{
+        margin: 70px 0px ;
+    }
+
+    .tip-p .meal p{
+        font-size: 33px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .tip-p .meal img{
+        width: 60%;
+        height: 280px;
+        margin: 10px auto;
+    }
+    .steps h2{
+        margin-bottom: 60px;
+    }
+}
+
+/* md */
+@media (min-width:768px) and (max-width:991px) {
+    
+/* start tips section */
+
+    .some-tips{
+    width: 600px;
+    display: block;
+    margin: 60px auto;
+    padding: 0px ;
+    transition: .3s;
+    height: 300px;
+    }
+    .some-tips h2{
+        font-size: 44px;
+        padding:  20px;
+        width: 100%;
+
+    }
+    .some-tips img{
+      display: none;
+    }
+/* meal */
+    .tip-p .meal{
+        margin: 70px 0px ;
+    }
+
+    .tip-p .meal p{
+        font-size: 33px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .tip-p .meal img{
+        width: 60%;
+        height: 280px;
+        margin: 10px auto;
+    }
+    .steps h2{
+        margin-bottom: 60px;
+    }
+  
+}
+
+/* lg */
+@media (min-width:992px) and (max-width:1199px) {
+      /* start tips section */
+
+      .some-tips{
+        width: 800px;
+   
+        margin: 60px auto;
+        padding: 0px ;
+        transition: .3s;
+        height: 280px;
+        }
+        .some-tips h2{
+            font-size: 38px;
+            padding:  35px;
+    
+        }
+        .some-tips img{
+            width: 37%;
+        }
+}
+
+/* xl */
+@media (min-width:1200px){}

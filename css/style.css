@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Noto Sans Display' ,'Times New Roman', Times, serif;
+}
+
+/* form */
+.layout{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #202c20e0;
+    z-index: 2;
+    display: none;
+}
+form{
+    width: 35%;
+    display: none;
+    margin: 100px auto;
+    border: 2px solid rgba(39, 38, 38, 0.219);
+    padding: 70px 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    background-color: rgb(233, 225, 225);
+    border-radius: 20px;
+z-index: 3;
+}
+form h2{
+    color: #1d8a1b;
+    margin-bottom: 40px;
+}
+form i{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  color: #416e41c0;
+}
+form button{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+/* start header */
+
+header{
+    background-image: url('../pic/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 27px;
+    position: relative;
+}
+header nav{
+    height: 90px;
+    background-color: #fff;
+    padding: 0px 65px;
+}
+
+ .logo img{
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+header li{
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+  
+}
+header a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+header .row{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ .logo h2{
+    color: #23233c;
+}
+
+nav .login a{
+    color: #7f8da0;
+}
+nav .login a{
+    font-weight: bold;
+}
+ .logo span,
+#reg {
+    color: #6bc37c;
+}
+
+/* start intro section */
+
+header .intro .text{
+position: absolute;
+top: 56%;
+left: 25%;
+transform: translate(-25%,-50%);
+padding: 0 30% 0 0;
+}
+
+header .text h1{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 3.7rem;
+  
+}
+
+.intro .text p{
+    color: #7f8da0;
+    
+}
+.intro button{
+    background-color: #4dbc4b;
+    color: #fff;
+    padding: 15px 80px 15px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    position: relative;
+    margin-top: 50px;
+    transition: .5s;
+}
+.intro button:hover{
+    background-color: #fff;
+    color: #4dbc4b;
+}
+.intro button span{
+    background-color: #1d8a1b;
+    padding: 15px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius:25px ;
+}
+/* start our sections */
+.our-sections {
+    margin: 30px 0px;
+}
+.our-sections .three-sections{
+    display: flex;
+    justify-content:center;
+    margin-top: 65px;
+}
+.our-sections .three-sections div a{
+    text-decoration: none;
+    color:#4DBC4B;
+    width: 100%;
+}
+.our-sections .three-sections div{
+    width: calc(75%/3);
+    padding: 30px 40px;
+    border: 4px solid #4DBC4B;
+    color: #4DBC4B;
+    text-align: center;
+    margin: 0px 15px;
+    font-weight: bold;
+    font-size: 25px;
+    transition: .5s;
+}
+.our-sections .three-sections div:hover{
+    background-color: #4DBC4B;
+    color: #fff;
+    border-color: #fff;
+cursor: pointer;
+}
+.our-sections .three-sections div:hover a{
+    color: #fff;
+}
+
+/* end our sections */
+/* start first section our plates */
+.our-plates{
+padding: 70px  0;
+position: relative;
+}
+.our-plates h2
+,.our-sections h2,
+.sec h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.our-plates h2 img,
+.our-sections h2 img,
+.sec h2 img,
+.adition h2 img{
+    width: 35px;
+    padding-right: 5px;
+}
+.our-plates h2 span,
+.our-sections h2 span,
+.sec h2 span,
+.adition span{
+   margin-left: 30px ;
+    border-bottom: 8px solid #4dbc4b;
+    padding-bottom: 4px;
+}
+.our-plates .flex{
+  padding-top: 180px ;
+  margin: auto;
+}
+ .plate{
+background-color: #F2F6FF;
+box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75);
+position: relative;
+padding: 60px 10px;
+border-radius: 125px 125px 26px 25px;
+}
+.plate img {
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+ .plate h3{
+    font-size: 26px;
+    padding: 85px 10px 30px 10px;
+    text-align: center;
+ 
+}
+ .plate .red{
+    color: rgb(218, 29, 29);
+    padding-right: 30px;
+}
+ .plate span{
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+}
+.plate span.c,
+.plate span.g{
+    font-size: 14px;
+    color: #bebcba;
+}
+.plate .calori-center{
+    left: 50%;
+    transform: translateX(16%);
+}
+ .plate .icon{
+    background-color: #222;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px 25px;
+    text-align: center;
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+cursor: pointer;
+}
+
+/* end first section our plates */
+
+/* start child section */
+
+
+.sec .plate{
+    position: relative;
+}
+.sec .plate img {
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+.sec {
+    padding: 50px 0px;
+}
+
+.sec>h2{
+    padding: 30px 0px;
+}
+.child-sec{
+   justify-content: center;
+}
+.box{
+    padding: 0px 120px; 
+}
+.sec .plate h3 {
+padding-top: 65px;
+}
+.child-sec h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0px 120px  0px;
+}
+.child-sec div.box{
+    margin: 10px 10px;
+    padding: 50px;
+}
+.sec  .plate h3{
+    text-align: left;
+}
+.child-sec div{
+    margin: 40px 0px 0px 0px;
+    background-color: #D4F6DA;
+    padding: 70px 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    
+}
+
+.child-sec .plate{
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 125px 125px 26px 25px;
+    display: block;
+    width: 230px;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec .plate .calori-center {
+    left: 50%;
+    background-color: transparent;
+    top: 50%;
+    transform: translateY(-55%);
+}
+.child-sec .ch1{
+    margin-bottom: 180px;
+}
+.sec .plate .red{
+    padding-right: 15px;
+}
+
+
+/* end child section */
+
+
+/* start girl pic  */
+.girl{
+    justify-content: center;
+    align-items: center;
+}
+.girl img{
+    display: block;
+    margin: 20px auto;
+}
+.girl h2{
+    text-align: center;
+    font-family: 'Pushster';
+    font-weight: bold;
+    font-size: 46px;
+    letter-spacing: .4rem;
+    color:#1d8a1b;
+}
+.girl .arrow{
+    display: flex;
+justify-content: center;
+}
+.arrow i{
+    font-size: 63px;
+    text-align: center;
+    margin: 80px auto;
+    color: #23233C;
+}
+.recomend{
+    display: flex;
+}
+.recomend h2{
+    color: #23233C;
+    font-weight: bold;
+    display: flex;
+    font-size: 44px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    line-height: 3,3rem;
+}
+.recomend img{
+    display: flex;
+    width: 40%;
+}
+
+/* end girl pic */
+/* start adition section */
+.adition{
+    margin: 100px auto ;
+}
+.adition h2{
+    margin: 50px 0px;
+}
+.green-div{
+    background-color: #D4F6DA;
+    border-radius: 40px;
+    padding: 50px 30px;
+}
+
+.green-div img{
+  
+width: 60%;
+margin: 80px auto;
+height: 310px;
+}
+.green-div .info{
+    padding: 40px 90px;
+    color: #23233c;
+    font-size: 41px;
+    font-weight: bold;
+}
+.green-div .info span{
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #1d8a1b;
+}
+/* end additon section  */
+/* start footer */
+footer{
+    background-color: #D4F6DA;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: #23233c;
+}
+
+footer .logo h2{
+    margin: 50px;
+
+}
+footer .logo span,
+footer p span{
+    color: #1d8a1b;
+}
+footer .logo h2 img{
+    width: 25px;
+}
+footer h2{
+    margin: 50px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.logo div p{
+    font-size: 22px;
+    margin-left: 70px;
+}
+footer p{
+    font-weight: bold;
+}
+
+footer li{
+    list-style: none;
+    line-height: 2.4rem;
+}
+footer li a{
+    text-decoration: none;
+    color: #43465c;
+    font-size: 17px;
+    font-weight: bold;
+}
+footer li i{
+    margin:15px 0px 0px 20px ;
+    color:#1d8a1b;
+    font-size: 70px;
+    cursor: pointer;
+    font-weight: bold;
+}
+footer .follow h2{
+    margin-left: 20px;
+}
+footer div{
+    margin: 20px 0px;
+}
